@@ -6,7 +6,7 @@ data= { "name": "Godwin",
          "age": 24,
          "gender":"Male"
 	}
-@app.route('/home',methods=['POST'])
+@app.route('/home')
 def sendBack():
 
 	return jsonify(data)
