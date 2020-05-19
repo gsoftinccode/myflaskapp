@@ -9,6 +9,6 @@ data= { "name": "Godwin",
 @app.route('/home')
 def sendBack():
 
-	return jsonify(data)
+	return "Hellow word there"
 if __name__=="__main__":
 	app.run()
