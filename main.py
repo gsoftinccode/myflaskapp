@@ -3,7 +3,7 @@ from flask import request, jsonify, Flask,json
 app= Flask(__name__)
 app.config["DEBUG"] = True
 
-data= { "name": "Godwin",
+data= { "name": "Matha Mabka",
          "age": 24,
          "gender":"Male"
 	}
