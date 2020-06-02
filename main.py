@@ -7,9 +7,18 @@ data= { "name": "Godwin",
          "age": 24,
          "gender":"Male"
 	}
-@app.route('/home')
+info= { "name": "Mik Tyson ",
+         "age": 56,
+         "gender":"Male"
+	}
+@app.route('/home', METHOD=['GET'])
 def sendBack():
 
 	return "Hellow word there"
+
+@app.route('/home', METHOD=['GET'])
+def sendBack():
+
+	return jsonify(info)
 if __name__=="__main__":
 	app.run(host='0.0.0.0', port=80)
