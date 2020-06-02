@@ -7,7 +7,7 @@ data= { "name": "Matha Mabka",
          "age": 24,
          "gender":"Male"
 	}
-info= { "name": "Mik Tyson ",
+info= { "name": "Mik Berlin ",
          "age": 56,
          "gender":"Male"
 	}
