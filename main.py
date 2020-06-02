@@ -1,8 +1,9 @@
 from flask import request, jsonify, Flask,json
-
+import flask
+print(flask.__version__)
 app= Flask(__name__)
 app.config["DEBUG"] = True
-
+print(flask.__version__)
 data= { "name": "Matha Mabka",
          "age": 24,
          "gender":"Male"
@@ -17,7 +18,7 @@ def sendBack():
 	return "Hellow word there"
 
 @app.route('/view', methods=['GET'])
-def sendBack():
+def view_container():
 
 	return jsonify(info)
 if __name__=="__main__":
