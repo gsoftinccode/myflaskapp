@@ -11,12 +11,12 @@ info= { "name": "Mik Berlin ",
          "age": 56,
          "gender":"Female"
 	}
-@app.route('/home', METHOD=['GET'])
+@app.route('/home', methods=['GET'])
 def sendBack():
 
 	return "Hellow word there"
 
-@app.route('/home', METHOD=['GET'])
+@app.route('/view', methods=['GET'])
 def sendBack():
 
 	return jsonify(info)
