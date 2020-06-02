@@ -9,7 +9,7 @@ data= { "name": "Matha Mabka",
 	}
 info= { "name": "Mik Berlin ",
          "age": 56,
-         "gender":"Male"
+         "gender":"Female"
 	}
 @app.route('/home', METHOD=['GET'])
 def sendBack():
